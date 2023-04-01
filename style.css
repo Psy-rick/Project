@@ -1,0 +1,89 @@
+
+body{
+    border: 0px;
+    margin: 0px;
+    padding: 0px; 
+}
+
+h1{
+    color: red;
+
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+    
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.col30{
+    background-color: blue;
+    width: 30%;
+    height: 250px;
+}
+
+.col70{
+    background-color: #001C65;
+    width: 70%;
+    height: 250px;
+}
+
+.col50{
+    background-color: yellow;
+    width: 50%;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+
+}   
+
+.col20{
+    background-color: aqua;
+    width: 50%;
+    height: 400px;
+    margin-top: 20px;
+    margin-right: 200px;
+    margin-bottom:100px;
+}
+
+.container{
+    background-color: blueviolet; height: 600px;
+    
+
+}
+
+.notpricipal{
+    width: 90%;
+    height: 300px;
+    background-color: rgb(255, 140, 0);
+   /*  margin: 20px 20px 20px 20px; */
+}
+
+.txtnotpricipal{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(195, 28, 183, 0.8);
+
+}
+
+.blog{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(31, 216, 31);
+    margin-top: 20px;
+}
+
+.marcador{
+    width: 100%;
+    min-height: 40px;
+    background-color: red;
+    margin: 5px;
+}
