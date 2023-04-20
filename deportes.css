@@ -1,0 +1,124 @@
+body{
+    border: 0px;
+    margin: 0px;
+    padding: 0px; 
+}
+h1{
+    color: red;
+
+}
+
+.row{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        list-style: none;
+            
+        
+    
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.col30{
+    background-color: blue;
+    width: 14%;
+    height: 218px;
+    right: 40px;
+     
+}
+
+
+.col70{
+    background-color: #001C65;
+    width: 98%;
+    height: 218px;
+   
+}
+
+.col50{
+    background-color: yellow;
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}   
+
+.col20{
+    background-color: aqua;
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.container{
+    background: linear-gradient(#001C65, rgb(91, 76, 253)); height: 600px; 
+    
+    
+    
+
+}
+
+.notpricipal{
+    width: 100%;
+    height: 200px;
+    margin: 10px 10px 5px;
+ 
+}
+
+.txtnotpricipal{
+    width: 100%;
+    height: 80px;
+    background-color: rgba(195, 28, 183, 0.8);
+   
+
+}
+
+.blog{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(31, 216, 31);
+    margin-top: 30px;
+}
+
+.marcador{
+    width: 100%;
+    min-height: 100px;
+    background-color: red;
+    margin: 40px;
+    
+}
+
+.barra{
+position: absolute;
+width: 100%;
+height: 60px;
+background: #205269;
+
+
+}
+
+.barra2{
+    background-color:#D9D9D9;
+    height: 70px;
+    width: 100%  ;
+    position: absolute;
+
+    
+    
+    
+}
+
+ul.row{
+    display: flex;
+    justify-content: space-around; 
+
+    
+}
